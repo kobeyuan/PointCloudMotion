@@ -1,0 +1,108 @@
+﻿Build started 2014/8/12 16:38:27.
+     1>Project "E:\Codes\PCM\QGLViewer\QGLViewer.vcxproj" on node 2 (Rebuild target(s)).
+     1>CustomBuild:
+         Moc'ing camera.h...
+         Moc'ing frame.h...
+         Moc'ing keyFrameInterpolator.h...
+         Moc'ing manipulatedCameraFrame.h...
+         Moc'ing manipulatedFrame.h...
+         Moc'ing qglviewer.h...
+         Uic'ing ImageInterface.ui...
+         Uic'ing VRenderInterface.ui...
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /IC:\Qt\Qt5.2.1\5.2.1\msvc2012_64_opengl\include /IC:\Qt\Qt5.2.1\5.2.1\msvc2012_64_opengl\include\QtOpenGL /IC:\Qt\Qt5.2.1\5.2.1\msvc2012_64_opengl\include\QtWidgets /IC:\Qt\Qt5.2.1\5.2.1\msvc2012_64_opengl\include\QtXml /IC:\Qt\Qt5.2.1\5.2.1\msvc2012_64_opengl\include\QtGui /IC:\Qt\Qt5.2.1\5.2.1\msvc2012_64_opengl\include\QtCore /Idebug /I. /I"C:\Qt\Qt5.2.1\5.2.1\msvc2012_64_opengl\mkspecs\win32-msvc2012" /I.\GeneratedFiles /Zi /nologo /W3 /WX- /Od /D _WINDOWS /D CREATE_QGLVIEWER_DLL /D NOMINMAX /D QT_CORE_LIB /D QT_GUI_LIB /D QT_NO_KEYWORDS /D QT_OPENGL_LIB /D QT_WIDGETS_LIB /D QT_XML_LIB /D UNICODE /D UNICODE /D WIN32 /D WIN32 /D WIN64 /D QT_DLL /D _WINDLL /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"x64\Debug\\" /Fd"x64\Debug\vc110.pdb" /Gd /TP /errorReport:prompt -EHs -w34100 -w34189 Debug\moc_camera.cpp Debug\moc_frame.cpp Debug\moc_keyFrameInterpolator.cpp Debug\moc_manipulatedCameraFrame.cpp Debug\moc_manipulatedFrame.cpp Debug\moc_qglviewer.cpp VRender\BSPSortMethod.cpp VRender\BackFaceCullingOptimizer.cpp VRender\EPSExporter.cpp VRender\Exporter.cpp VRender\FIGExporter.cpp VRender\NVector3.cpp VRender\ParserGL.cpp VRender\Primitive.cpp VRender\PrimitivePositioning.cpp VRender\TopologicalSortMethod.cpp VRender\VRender.cpp VRender\Vector2.cpp VRender\Vector3.cpp VRender\VisibilityOptimizer.cpp camera.cpp constraint.cpp frame.cpp VRender\gpc.cpp keyFrameInterpolator.cpp manipulatedCameraFrame.cpp manipulatedFrame.cpp mouseGrabber.cpp qglviewer.cpp quaternion.cpp saveSnapshot.cpp vec.cpp
+         moc_camera.cpp
+         moc_frame.cpp
+         moc_keyFrameInterpolator.cpp
+         moc_manipulatedCameraFrame.cpp
+         moc_manipulatedFrame.cpp
+         moc_qglviewer.cpp
+         BSPSortMethod.cpp
+     1>e:\codes\pcm\qglviewer\vrender\Primitive.h(197): warning C4267: 'return' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>VRender\BSPSortMethod.cpp(84): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+         BackFaceCullingOptimizer.cpp
+     1>e:\codes\pcm\qglviewer\vrender\Primitive.h(197): warning C4267: 'return' : conversion from 'size_t' to 'unsigned int', possible loss of data
+         EPSExporter.cpp
+     1>e:\codes\pcm\qglviewer\vrender\Primitive.h(197): warning C4267: 'return' : conversion from 'size_t' to 'unsigned int', possible loss of data
+         Exporter.cpp
+     1>e:\codes\pcm\qglviewer\vrender\Primitive.h(197): warning C4267: 'return' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>VRender\Exporter.cpp(76): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+         FIGExporter.cpp
+     1>e:\codes\pcm\qglviewer\vrender\Primitive.h(197): warning C4267: 'return' : conversion from 'size_t' to 'unsigned int', possible loss of data
+         NVector3.cpp
+         ParserGL.cpp
+     1>e:\codes\pcm\qglviewer\vrender\Primitive.h(197): warning C4267: 'return' : conversion from 'size_t' to 'unsigned int', possible loss of data
+         Primitive.cpp
+     1>e:\codes\pcm\qglviewer\vrender\Primitive.h(197): warning C4267: 'return' : conversion from 'size_t' to 'unsigned int', possible loss of data
+         PrimitivePositioning.cpp
+     1>e:\codes\pcm\qglviewer\vrender\Primitive.h(197): warning C4267: 'return' : conversion from 'size_t' to 'unsigned int', possible loss of data
+         TopologicalSortMethod.cpp
+     1>e:\codes\pcm\qglviewer\vrender\Primitive.h(197): warning C4267: 'return' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>VRender\TopologicalSortMethod.cpp(304): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>VRender\TopologicalSortMethod.cpp(333): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>VRender\TopologicalSortMethod.cpp(518): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+         VRender.cpp
+     1>e:\codes\pcm\qglviewer\vrender\Primitive.h(197): warning C4267: 'return' : conversion from 'size_t' to 'unsigned int', possible loss of data
+         Vector2.cpp
+         Vector3.cpp
+         VisibilityOptimizer.cpp
+     1>e:\codes\pcm\qglviewer\vrender\Primitive.h(197): warning C4267: 'return' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>VRender\VisibilityOptimizer.cpp(64): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned int', possible loss of data
+         Generating Code...
+         Compiling...
+         camera.cpp
+         constraint.cpp
+         frame.cpp
+         gpc.cpp
+         keyFrameInterpolator.cpp
+         manipulatedCameraFrame.cpp
+         manipulatedFrame.cpp
+         mouseGrabber.cpp
+         qglviewer.cpp
+         quaternion.cpp
+         saveSnapshot.cpp
+         vec.cpp
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\rc.exe /D _WINDOWS /D UNICODE /D WIN32 /D CREATE_QGLVIEWER_DLL /D NOMINMAX /D QT_NO_KEYWORDS /D QT_OPENGL_LIB /D QT_WIDGETS_LIB /D QT_XML_LIB /D QT_GUI_LIB /D QT_CORE_LIB /D _DEBUG /l"0x0409" /nologo /fo"x64\Debug\QGLViewerd_resource.res" E:\Download\libQGLViewer-2.5.2\libQGLViewer-2.5.2\QGLViewer\QGLViewerd_resource.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Codes\PCM\x64\Debug\\QGLViewerd2.dll" /VERSION:"2.52" /NOLOGO /LIBPATH:C:\Qt\Qt5.2.1\5.2.1\msvc2012_64_opengl\lib /LIBPATH:C:\Qt\Qt5.2.1\5.2.1\msvc2012_64_opengl\lib glu32.lib opengl32.lib gdi32.lib user32.lib C:\Qt\Qt5.2.1\5.2.1\msvc2012_64_opengl\lib\Qt5OpenGLd.lib C:\Qt\Qt5.2.1\5.2.1\msvc2012_64_opengl\lib\Qt5Widgetsd.lib C:\Qt\Qt5.2.1\5.2.1\msvc2012_64_opengl\lib\Qt5Xmld.lib C:\Qt\Qt5.2.1\5.2.1\msvc2012_64_opengl\lib\Qt5Guid.lib C:\Qt\Qt5.2.1\5.2.1\msvc2012_64_opengl\lib\Qt5Cored.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Codes\PCM\x64\Debug\QGLViewerd2.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /MACHINE:X64  /SUBSYSTEM:WINDOWS /DLL x64\Debug\QGLViewerd_resource.res
+         x64\Debug\moc_camera.obj
+         x64\Debug\moc_frame.obj
+         x64\Debug\moc_keyFrameInterpolator.obj
+         x64\Debug\moc_manipulatedCameraFrame.obj
+         x64\Debug\moc_manipulatedFrame.obj
+         x64\Debug\moc_qglviewer.obj
+         x64\Debug\BSPSortMethod.obj
+         x64\Debug\BackFaceCullingOptimizer.obj
+         x64\Debug\EPSExporter.obj
+         x64\Debug\Exporter.obj
+         x64\Debug\FIGExporter.obj
+         x64\Debug\NVector3.obj
+         x64\Debug\ParserGL.obj
+         x64\Debug\Primitive.obj
+         x64\Debug\PrimitivePositioning.obj
+         x64\Debug\TopologicalSortMethod.obj
+         x64\Debug\VRender.obj
+         x64\Debug\Vector2.obj
+         x64\Debug\Vector3.obj
+         x64\Debug\VisibilityOptimizer.obj
+         x64\Debug\camera.obj
+         x64\Debug\constraint.obj
+         x64\Debug\frame.obj
+         x64\Debug\gpc.obj
+         x64\Debug\keyFrameInterpolator.obj
+         x64\Debug\manipulatedCameraFrame.obj
+         x64\Debug\manipulatedFrame.obj
+         x64\Debug\mouseGrabber.obj
+         x64\Debug\qglviewer.obj
+         x64\Debug\quaternion.obj
+         x64\Debug\saveSnapshot.obj
+         x64\Debug\vec.obj
+            Creating library E:\Codes\PCM\x64\Debug\\QGLViewerd2.lib and object E:\Codes\PCM\x64\Debug\\QGLViewerd2.exp
+         QGLViewer.vcxproj -> E:\Codes\PCM\x64\Debug\QGLViewerd2.dll
+     1>Done Building Project "E:\Codes\PCM\QGLViewer\QGLViewer.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:42.79

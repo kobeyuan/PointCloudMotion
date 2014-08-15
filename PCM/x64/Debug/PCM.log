@@ -1,0 +1,27 @@
+﻿Build started 2014/8/12 17:01:04.
+     1>Project "E:\Codes\PCM\PCM\PCM.vcxproj" on node 2 (Rebuild target(s)).
+     1>CustomBuild:
+         Moc'ing main_window.h...
+         Uic'ing main_window.ui...
+         Rcc'ing main_window.qrc...
+     1>RCC : warning : No resources in 'E:\Codes\PCM\PCM\main_window.qrc'.
+         
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\Qt5.2.1\5.2.1\msvc2012_64_opengl\include /I.\GeneratedFiles\Debug /IC:\Qt\Qt5.2.1\5.2.1\msvc2012_64_opengl\include\QtCore /IC:\Qt\Qt5.2.1\5.2.1\msvc2012_64_opengl\include\QtGui /IC:\Qt\Qt5.2.1\5.2.1\msvc2012_64_opengl\include\QtOpenGL /IC:\Qt\Qt5.2.1\5.2.1\msvc2012_64_opengl\include\QtWidgets /IC:\Qt\Qt5.2.1\5.2.1\msvc2012_64_opengl\include\QtXml /I.. /Zi /nologo /W1 /WX- /Od /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_OPENGL_LIB /D QT_WIDGETS_LIB /D QT_XML_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc110.pdb" /Gd /TP /errorReport:prompt GeneratedFiles\Debug\moc_main_window.cpp main.cpp main_window.cpp
+         moc_main_window.cpp
+         main.cpp
+         main_window.cpp
+         Generating Code...
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\Qt5.2.1\5.2.1\msvc2012_64_opengl\include /I.\GeneratedFiles\Debug /IC:\Qt\Qt5.2.1\5.2.1\msvc2012_64_opengl\include\QtCore /IC:\Qt\Qt5.2.1\5.2.1\msvc2012_64_opengl\include\QtGui /IC:\Qt\Qt5.2.1\5.2.1\msvc2012_64_opengl\include\QtOpenGL /IC:\Qt\Qt5.2.1\5.2.1\msvc2012_64_opengl\include\QtWidgets /IC:\Qt\Qt5.2.1\5.2.1\msvc2012_64_opengl\include\QtXml /I.. /Zi /nologo /W1 /WX- /Od /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_OPENGL_LIB /D QT_WIDGETS_LIB /D QT_XML_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc110.pdb" /Gd /TP /errorReport:prompt GeneratedFiles\qrc_main_window.cpp
+         qrc_main_window.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Codes\PCM\x64\Debug\\PCM.exe" /NOLOGO /LIBPATH:C:\Qt\Qt5.2.1\5.2.1\msvc2012_64_opengl\lib qtmaind.lib Qt5Cored.lib Qt5Guid.lib Qt5OpenGLd.lib opengl32.lib glu32.lib Qt5Widgetsd.lib Qt5Xmld.lib QGLViewerd2.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Codes\PCM\x64\Debug\PCM.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Codes\PCM\x64\Debug\PCM.lib" /MACHINE:X64 x64\Debug\moc_main_window.obj
+         x64\Debug\qrc_main_window.obj
+         x64\Debug\main.obj
+         x64\Debug\main_window.obj
+     1>LINK : fatal error LNK1104: cannot open file 'QGLViewerd2.lib'
+     1>Done Building Project "E:\Codes\PCM\PCM\PCM.vcxproj" (Rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:05.74

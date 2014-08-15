@@ -1,0 +1,13 @@
+﻿""
+{
+"FILE_VERSION" = "9237"
+"ENLISTMENT_CHOICE" = "NEVER"
+"PROJECT_FILE_RELATIVE_PATH" = ""
+"NUMBER_OF_EXCLUDED_FILES" = "3"
+"EXCLUDED_FILE0" = "GeneratedFiles\\Debug\\moc_trajectory_classifier.cpp"
+"EXCLUDED_FILE1" = "GeneratedFiles\\ui_dlg_clustering.h"
+"EXCLUDED_FILE2" = "GeneratedFiles\\Release\\moc_trajectory_classifier.cpp"
+"ORIGINAL_PROJECT_FILE_PATH" = ""
+"NUMBER_OF_NESTED_PROJECTS" = "0"
+"SOURCE_CONTROL_SETTINGS_PROVIDER" = "PROJECT"
+}

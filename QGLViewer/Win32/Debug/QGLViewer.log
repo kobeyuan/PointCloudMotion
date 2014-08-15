@@ -1,0 +1,91 @@
+﻿Build started 2014/8/13 17:19:22.
+     1>Project "E:\Codes\PCM\QGLViewer\QGLViewer.vcxproj" on node 2 (Rebuild target(s)).
+     1>CustomBuild:
+         Moc'ing camera.h...
+         Moc'ing frame.h...
+         Moc'ing keyFrameInterpolator.h...
+         Moc'ing manipulatedCameraFrame.h...
+         Moc'ing manipulatedFrame.h...
+         Moc'ing qglviewer.h...
+         Uic'ing ImageInterface.ui...
+         Uic'ing VRenderInterface.ui...
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IC:\Qt\Qt5.3.1\5.3\msvc2012_opengl\include /IC:\Qt\Qt5.3.1\5.3\msvc2012_opengl\include\QtOpenGL /IC:\Qt\Qt5.3.1\5.3\msvc2012_opengl\include\QtWidgets /IC:\Qt\Qt5.3.1\5.3\msvc2012_opengl\include\QtXml /IC:\Qt\Qt5.3.1\5.3\msvc2012_opengl\include\QtGui /IC:\Qt\Qt5.3.1\5.3\msvc2012_opengl\include\QtCore /Idebug /I. /I"C:\Qt\Qt5.3.1\5.3\msvc2012_opengl\mkspecs\win32-msvc2012" /I.\GeneratedFiles /Zi /nologo /W3 /WX- /Od /Oy- /D _WINDOWS /D UNICODE /D WIN32 /D CREATE_QGLVIEWER_DLL /D NOMINMAX /D QT_NO_KEYWORDS /D QT_OPENGL_LIB /D QT_WIDGETS_LIB /D QT_XML_LIB /D QT_GUI_LIB /D QT_CORE_LIB /D QT_DLL /D _WINDLL /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"Win32\Debug\\" /Fd"Win32\Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt -EHs -w34100 -w34189 Debug\moc_camera.cpp Debug\moc_frame.cpp Debug\moc_keyFrameInterpolator.cpp Debug\moc_manipulatedCameraFrame.cpp Debug\moc_manipulatedFrame.cpp Debug\moc_qglviewer.cpp VRender\BSPSortMethod.cpp VRender\BackFaceCullingOptimizer.cpp VRender\EPSExporter.cpp VRender\Exporter.cpp VRender\FIGExporter.cpp VRender\NVector3.cpp VRender\ParserGL.cpp VRender\Primitive.cpp VRender\PrimitivePositioning.cpp VRender\TopologicalSortMethod.cpp VRender\VRender.cpp VRender\Vector2.cpp VRender\Vector3.cpp VRender\VisibilityOptimizer.cpp camera.cpp constraint.cpp frame.cpp VRender\gpc.cpp keyFrameInterpolator.cpp manipulatedCameraFrame.cpp manipulatedFrame.cpp mouseGrabber.cpp qglviewer.cpp quaternion.cpp saveSnapshot.cpp vec.cpp
+         moc_camera.cpp
+         moc_frame.cpp
+         moc_keyFrameInterpolator.cpp
+         moc_manipulatedCameraFrame.cpp
+         moc_manipulatedFrame.cpp
+         moc_qglviewer.cpp
+         BSPSortMethod.cpp
+         BackFaceCullingOptimizer.cpp
+         EPSExporter.cpp
+         Exporter.cpp
+         FIGExporter.cpp
+         NVector3.cpp
+         ParserGL.cpp
+         Primitive.cpp
+         PrimitivePositioning.cpp
+         TopologicalSortMethod.cpp
+         VRender.cpp
+         Vector2.cpp
+         Vector3.cpp
+         VisibilityOptimizer.cpp
+         Generating Code...
+         Compiling...
+         camera.cpp
+         constraint.cpp
+         frame.cpp
+         gpc.cpp
+         keyFrameInterpolator.cpp
+         manipulatedCameraFrame.cpp
+         manipulatedFrame.cpp
+         mouseGrabber.cpp
+         qglviewer.cpp
+         quaternion.cpp
+         saveSnapshot.cpp
+         vec.cpp
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\rc.exe /D _WINDOWS /D UNICODE /D WIN32 /D CREATE_QGLVIEWER_DLL /D NOMINMAX /D QT_NO_KEYWORDS /D QT_OPENGL_LIB /D QT_WIDGETS_LIB /D QT_XML_LIB /D QT_GUI_LIB /D QT_CORE_LIB /D _DEBUG /l"0x0409" /nologo /fo"Win32\Debug\QGLViewerd_resource.res" E:\Download\libQGLViewer-2.5.2\libQGLViewer-2.5.2\QGLViewer\QGLViewerd_resource.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Codes\PCM\Win32\Debug\\QGLViewerd2.dll" /VERSION:"2.52" /NOLOGO /LIBPATH:C:\Qt\Qt5.3.1\5.3\msvc2012_opengl\lib /LIBPATH:C:\Qt\Qt5.3.1\5.3\msvc2012_opengl\lib glu32.lib opengl32.lib gdi32.lib user32.lib C:\Qt\Qt5.3.1\5.3\msvc2012_opengl\lib\Qt5OpenGLd.lib C:\Qt\Qt5.3.1\5.3\msvc2012_opengl\lib\Qt5Widgetsd.lib C:\Qt\Qt5.3.1\5.3\msvc2012_opengl\lib\Qt5Xmld.lib C:\Qt\Qt5.3.1\5.3\msvc2012_opengl\lib\Qt5Guid.lib C:\Qt\Qt5.3.1\5.3\msvc2012_opengl\lib\Qt5Cored.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Codes\PCM\Win32\Debug\QGLViewerd2.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /MACHINE:X86 /SAFESEH /DLL Win32\Debug\QGLViewerd_resource.res
+         Win32\Debug\moc_camera.obj
+         Win32\Debug\moc_frame.obj
+         Win32\Debug\moc_keyFrameInterpolator.obj
+         Win32\Debug\moc_manipulatedCameraFrame.obj
+         Win32\Debug\moc_manipulatedFrame.obj
+         Win32\Debug\moc_qglviewer.obj
+         Win32\Debug\BSPSortMethod.obj
+         Win32\Debug\BackFaceCullingOptimizer.obj
+         Win32\Debug\EPSExporter.obj
+         Win32\Debug\Exporter.obj
+         Win32\Debug\FIGExporter.obj
+         Win32\Debug\NVector3.obj
+         Win32\Debug\ParserGL.obj
+         Win32\Debug\Primitive.obj
+         Win32\Debug\PrimitivePositioning.obj
+         Win32\Debug\TopologicalSortMethod.obj
+         Win32\Debug\VRender.obj
+         Win32\Debug\Vector2.obj
+         Win32\Debug\Vector3.obj
+         Win32\Debug\VisibilityOptimizer.obj
+         Win32\Debug\camera.obj
+         Win32\Debug\constraint.obj
+         Win32\Debug\frame.obj
+         Win32\Debug\gpc.obj
+         Win32\Debug\keyFrameInterpolator.obj
+         Win32\Debug\manipulatedCameraFrame.obj
+         Win32\Debug\manipulatedFrame.obj
+         Win32\Debug\mouseGrabber.obj
+         Win32\Debug\qglviewer.obj
+         Win32\Debug\quaternion.obj
+         Win32\Debug\saveSnapshot.obj
+         Win32\Debug\vec.obj
+            Creating library E:\Codes\PCM\Win32\Debug\\QGLViewerd2.lib and object E:\Codes\PCM\Win32\Debug\\QGLViewerd2.exp
+         QGLViewer.vcxproj -> E:\Codes\PCM\Win32\Debug\QGLViewerd2.dll
+     1>Done Building Project "E:\Codes\PCM\QGLViewer\QGLViewer.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:33.97
