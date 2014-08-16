@@ -4,6 +4,7 @@
 #include <gl/glu.h>
 #include <fstream>
 #include "globals.h"
+#include <assert.h>
 
 Sample::~Sample()
 { 
@@ -186,4 +187,20 @@ bool Sample::neighbours(const IndexType query_point_idx, const IndexType num_clo
 	delete out_distances;
 
 	return true;
+}
+
+void Sample::update()
+{
+	assert( vtx_matrix_.cols() == vertices_.size() );
+	IndexType v_idx = 0;
+	for ( vtx_iterator v_iter = begin();
+			v_iter != end(); v_iter++,v_idx++ )
+	{
+		PointType p( vtx_matrix_(0, v_idx),
+					vtx_matrix_(1, v_idx),
+					vtx_matrix_(2, v_idx));
+		(*v_iter)->set_position( p );
+	}
+	kd_tree_should_rebuild_ = true;
+	build_kdtree();
 }

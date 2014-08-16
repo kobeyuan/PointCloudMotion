@@ -7,12 +7,14 @@
 #include "..\ICP\ICP.h"
 #include "Eigen\Dense"
 #include "basic_types.h"
+#include <QMutex>
 
 class Sample:public SelectableItem
 {
 public:
 	Sample():vertices_(),allocator_(),kd_tree_(nullptr),
-				kd_tree_should_rebuild_(true){}
+				kd_tree_should_rebuild_(true),
+				mutex_(QMutex::NonRecursive){}
 	~Sample();
 
 	inline Vertex* operator[]( IndexType i ) const{ return vertices_[i]; }
@@ -45,7 +47,12 @@ public:
 	inline Matrix44 matrix_to_scene_coord(  );
 
 	/* Green channel to get all vertex position information */
-	inline const Matrix3X&	vertices_matrix() const{ return vtx_matrix_; }
+	inline  Matrix3X&	vertices_matrix() { return vtx_matrix_; }
+	/*Update vertex position according vertex matrix*/
+	void	update();
+
+	inline void lock(){ mutex_.lock(); }
+	inline void unlock(){ mutex_.unlock(); }
 
 // 	const PointType box_center() const{ return box_.center(); }
 // 	const ScalarType	box_diag() const { return box_.diag(); }
@@ -59,6 +66,7 @@ private:
 	//Attention: kdtree is just a adapter, it means it use the reference of its data source
 	nanoflann::KDTreeAdaptor<Matrix3X, 3>*		kd_tree_;
 	bool										kd_tree_should_rebuild_;
+	QMutex										mutex_;
 };
 
 #endif

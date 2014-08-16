@@ -81,7 +81,7 @@ void TrajectoryClassifier::run(){
 
 
 	//Step 3: Store the results
-	Thread_Param::sample_set_mutex.lock();
+	LOCK( set[0] );
 	Sample* sample0 = set[0];
 	IndexType i = 0;
 	for (Sample::vtx_iterator v_iter = sample0->begin();
@@ -90,8 +90,7 @@ void TrajectoryClassifier::run(){
 	{
 		(*v_iter)->set_label( labels.at<IndexType>(i) );
 	}
-	
-	Thread_Param::sample_set_mutex.unlock();
+	UNLOCK(set[0]);
 
 	Logger<< " End Clustering.\n";
 	emit finish_compute();

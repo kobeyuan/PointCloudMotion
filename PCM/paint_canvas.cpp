@@ -29,13 +29,13 @@ void PaintCanvas::draw()
 
 	drawCornerAxis();
 
-	Thread_Param::sample_set_mutex.lock();
 	SampleSet& set = SampleSet::get_instance();
 	if ( !set.empty() )
 	{
 		glDisable(GL_MULTISAMPLE);
 		for (size_t i = 0; i <set.size(); i++ )
 		{
+			LOCK(set[i]);
 			switch (which_color_mode_)
 			{
 			case PaintCanvas::VERTEX_COLOR:
@@ -50,10 +50,10 @@ void PaintCanvas::draw()
 			default:
 				break;
 			}
+			UNLOCK(set[i]);
 		}
 		glEnable(GL_MULTISAMPLE);
 	}
-	Thread_Param::sample_set_mutex.unlock();
 }
 
 void PaintCanvas::init()
